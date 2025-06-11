@@ -1,0 +1,38 @@
+/* ------- pseudo - link -------- */
+
+a:link{
+    color: blue;
+}
+
+a:hover{
+    color: brown;
+}
+
+a:active{
+    color: black;
+}
+
+a:visited{
+    color: aqua;
+}
+
+/* list  */
+
+li:hover{
+    background-color: yellow;
+    color: chocolate;
+} 
+
+li:not(:hover){
+    background-color: aqua;
+    color: yellowgreen;
+}
+
+li:nth-child(3){
+    background-color: brown;
+}
+
+
+div p:hover{
+    background-color: cadetblue;
+}

@@ -1,0 +1,36 @@
+/* element name */
+
+h1{
+    color:green;
+}
+
+/* id */
+
+#2{
+  color: blueviolet;
+}
+
+/* class */
+
+.h{
+    color: aqua;
+}
+
+/* universal */
+
+*{
+   color: brown; 
+}
+
+/* grouping */
+
+h1,div{
+    color: bisque;
+}
+
+/* descdent combinator */
+
+div + p{
+    color: red;
+
+}
