@@ -1,0 +1,12 @@
+p{
+    text-transform: capitalize;
+    text-indent: 50px;
+    letter-spacing: 5px;
+    line-height: 30px;
+    word-spacing: 30px;
+    white-space: wrap;
+}
+
+h1{
+text-shadow: 2px 1px 4px blue;
+}
