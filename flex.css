@@ -1,0 +1,29 @@
+*{
+ margin:0% ;
+ padding:0% ;
+}
+
+.main{
+    width: 100%;
+    
+    background-color: aqua;
+    display: flex;
+    flex-direction:row;
+   
+
+}
+
+.img{
+    width: 2vw;
+    height: 2vh;
+
+}
+ 
+.card{
+    
+    border: 1px solid red;
+    background-color: blue;
+     margin:10px ;
+     padding:20px ;
+     font-size: 30px;
+}
