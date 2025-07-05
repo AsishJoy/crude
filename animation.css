@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: rgb(49, 81, 106);
+    animation-name: myanimation;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 5;
+    animation-direction: normal;
+}
+
+@keyframes myanimation{
+    0% {top:0px;}
+    25% {top:100px;}
+    50% {top:200px;}
+    75% {top:100px;}
+    100% {top:0px;}
+}

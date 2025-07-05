@@ -1,0 +1,748 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    background-color:rgb(40, 40, 59);
+    box-sizing: border-box;
+   
+    
+}
+
+
+                        /* -------------------------------nav----------------------------- */
+
+
+.line{
+    color: rgb(199, 125, 34);
+    font-size: 70px;
+}
+
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 15px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+    
+}
+
+.ca{
+    font-family: sans-serif;
+}
+
+.left{
+    color:white;
+    display: flex;
+    align-items: center;
+    gap:25px;
+    border: none;
+}
+
+.right{
+    color:white;
+    display: flex;
+     align-items: center;
+    background-color: rgb(40, 40, 59);
+    border: none;
+}
+
+.select{
+    background-color:rgb(40, 40, 59);
+    color:white;
+    border:none
+}
+
+                                          
+                   /*------------------------------- body1 ------------------------------------*/
+
+.body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.L{
+    width: 1/2;
+    height: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px;
+}
+
+.R{
+    width: 1/2;
+    height: 100;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.R img{
+    width: 300px;
+    height: 600px;
+}
+
+.L h2{
+   
+    font-size: x-large;
+    color: white;
+    font-family: sans-serif;
+    
+}
+
+.L h1{
+   
+    font-size: 80px;
+    color: white;
+    font-family: sans-serif;
+    
+}
+
+.L p{
+   
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    padding-right: 45px;
+    
+}
+
+.L button{
+    width:300px ;
+    height: 60px;
+    background-color: rgb(202, 150, 37);
+}
+
+
+                 /* ------------------------------------mov-names -------------------------------------*/
+
+
+.mov-names{
+    background-color: white;
+    height: 150px;
+    padding: 50px;
+    text-align: center;
+   
+}
+
+    
+.mov-names h1{
+    font-family: sans-serif;
+}
+
+    
+.b button{
+    width: 180px;
+    height: 50px;
+}
+
+.img{
+    
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 70px;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 300px;
+    
+} 
+
+
+                  /*---------------------- lmcard --------------------------------*/
+
+
+.lmcard{
+
+    
+    height: 800px;
+    width: full;
+    gap: 50px;
+    padding-top: 60px ;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+    
+
+}
+
+.hcard{
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    gap: 15px;
+    padding-top: 60px;
+}
+
+.cards4{
+    
+    width: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    /* background-color: white; */
+    justify-content: space-between;
+    padding-top: 100px;
+    gap: 40px;
+    
+
+}
+
+.c1{
+    background-color: white;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 13px;
+    height: 400px;
+
+}
+
+.hcard h2{
+    padding-top: 50px;
+}
+
+.c1 img{
+    
+    width: 80px;
+    height: 60px;
+
+}
+
+.c1 h3{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.c1 p{
+    font-size: large;
+     font-family: sans-serif;
+
+}
+/* .c1 button{
+    background-color: rgb(205, 228, 234);
+    width: 150px;
+    height: 45px;
+    
+    padding: 10px; 
+    font-family: sans-serif;
+    
+    
+} */
+
+.c1 b{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(205, 228, 234);
+    width: 100px;
+    height: 40px;
+}
+
+
+                        /* --------------------------- why oddin ---------------------------------- */
+
+
+
+.y-oddin{
+
+    width: full;
+    height: 1000px;
+    background-color: white;
+    
+    
+
+}   
+
+.y1st{
+    padding-top:50px ;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    font-family: sans-serif;
+}
+
+.ycards{
+    /* background-color: aqua; */
+    width: 170px;
+    height: 100px;
+    display: grid;
+    grid-template-columns:500px 500px ;
+    grid-template-rows: 400px 400px 400px ;
+    padding-top: 70px;
+    padding-left: 150px;
+    gap: 170px;
+}
+
+.ycard1 p{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+
+.ycard1 h1{
+    padding-top: 150px;
+}
+
+
+
+.ycard2 img{
+    height: 400px;
+    width: 600px;
+    padding-top: 40px;
+}
+
+.ycard3 img{
+    height: 400px;
+    width: 600px;
+    padding-top:30px ;
+    
+    
+}
+
+.ycard4 p{
+     
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    padding-left: 30px ;
+}
+
+.ycard4 h1{
+    padding-top: 30px;
+    padding-left: 30px ;
+}
+
+.ycard5 h1{
+    padding-top: 30px;
+    padding-left: 30px ;
+    
+}
+
+.p1{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    padding-left: 30px ;
+}
+
+.p2{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    padding-left: 30px ;
+}
+
+.ycard6 img{
+    height: 400px;
+    width: 600px;
+    padding-left:30px ;
+    padding-top: 90px;
+}
+
+
+                                  
+
+                                /* --------------------- y-oddin2 ------------------------ */
+
+.y-oddin2{
+    
+    width: full;
+    height: 900px;
+    background-color: white;
+    padding-top: 1000px;
+
+}         
+
+.y1{
+    text-align: center;
+    padding-top: 30px;
+    font-family: sans-serif;
+    font-size: 25px;
+    
+}
+
+.y2{
+    text-align: center;
+    padding-top: 50px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.y2cards{
+    height: 400px;
+    width: 1000px;
+    padding-top: 50px;
+    padding-left: 250px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.flexcard{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+}
+.flexcard img{
+    width: 80px;
+    height: 90px;
+}
+
+.flexcard h4{
+    font-size: 20px;
+
+}
+
+.flexcard p{
+    font-size: large;
+
+}
+
+
+        /*------------------------------- imgcards -------------------------------*/
+
+
+.imgcards{
+    
+    
+    width: full;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}  
+
+.ih1{
+    color: white;
+    padding-top: 50px;
+    font-family: sans-serif;
+}
+
+.icards {
+   
+    width: full;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto ;
+    grid-template-rows:  auto auto auto  auto auto auto;
+    gap: 80px;
+
+    
+
+}
+
+.icards img{
+    height: 130px ;
+    width: 130px;
+}
+
+.cardss1 img{
+    height: 200px ;
+    width: 200px; 
+}
+
+.cardss1 {
+   
+    grid-column: span 4;
+    padding-left: 50px;
+}
+
+
+.cardss{
+    grid-column: span 3;
+    padding: 20px;
+}
+
+
+                     /*--------------------------------- news.oddin -------------------------------------*/
+
+.news-oddin{
+    font-family: sans-serif;
+    background-color: white;
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+.carde1{
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.carde1 img{
+    height: 400px;
+    width: 800px;
+    padding-left: 20px;
+}
+
+.carde2{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    font-size: x-large;
+    padding-top: 50px;
+    font-family: sans-serif;
+    padding-right: 20px;
+}
+.h3class{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.h31st{
+    color: rgb(208, 142, 27);
+}
+
+.carde2 button{
+    width: 180px;
+    height: 50px;
+}
+
+
+
+
+
+                           /*---------------------- 3cards ----------------------------*/
+
+
+
+
+.cards-3{
+    width: full;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 40px;
+}      
+
+.calass3{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: sans-serif;
+    font-size: larger;
+    
+
+}
+
+.mi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.hi{
+    color: rgb(208, 142, 27);
+
+}
+.calass3 img{
+   height: 300px;
+    width: 450px;
+}
+
+.calass3  button{
+    width: 180px;
+    height: 50px;
+}
+
+
+                        
+                            /*----------------- FORM ----------------------*/
+
+.fpage{
+    height: 1000px;
+    width: full;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f1{
+    font-size: x-large;
+    padding:50px;
+}
+
+.f2{
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:15px;
+    color:gray;
+}
+
+.form1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: gray;
+    
+}
+
+.formcontent1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.formcontent2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+
+    
+}
+
+.fp1{
+    width: 390px;
+    height: 50px;
+    background-color:rgb(156, 151, 151);
+}
+
+
+.fp2{
+     width: auto;
+    height: 50px;
+    background-color: rgb(156, 151, 151);
+}
+
+.fp3{
+     width: auto;
+    height: 150px;
+    background-color:rgb(156, 151, 151);
+}
+
+.formcontent2 label{
+    padding-top: 15px;
+}
+
+.formcontent2 button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(208, 142, 27);
+}
+
+
+
+                  /*-------------------------------- last ---------------------------------------------*/
+
+
+
+.last{
+    height: 300px;
+    width: full;
+    background-color: rgb(44, 41, 41);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px;
+    gap: 20px;
+    font-family: sans-serif;
+    color: white;
+    font-size: medium;
+    
+}
+
+.last img{
+    width: 200px;
+    height: 90px;
+}
+
+
+.li1 ul{
+    font-size: medium;
+    line-height: 30px;
+}
+
+
+.li1 h5{
+    font-size: larger;
+}
+
+
+.li1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.lastimg2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+.R1 img{
+    width: 170px;
+    height: 60px;
+}
+
+
+.R3 img{
+    width:  40px;
+    height: 40px;
+    
+}
+
+.R3 a{
+    color: gray;
+   
+}
+
+
+.R1{
+    display: inline;
+}
+
+
+
+.R2{
+    width: 300px;
+}          
+
+.lasts{
+    height: 100px;
+    text-align: center;
+    padding-top: 50px ;
+    color: white;
+
+}
+
+
+
+
