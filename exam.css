@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: full;
+    height: screen;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.page{
+
+    width: 500px;
+    height: 500px:
+    
+}
+
+.bgimg{
+    width: full;
+    height: screen;
+    
+}
+
+
+
