@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mockjs.css">
+</head>
+<body>
+    <div class="main">
+
+    <H1>STAFF MANAGEMENT SYSYTEM</H1>
+
+    <form id="form">
+
+
+
+    <label for="name">NAME:</label>
+    <input type="text" id="name">
+
+    <label for="age">AGE:</label>
+    <input type="number" id="age">
+    
+    <label for="dep">DEPARTMENT:</label>
+    <select name="DEPARTENT" id="department">
+       
+       <option value="shipping management">shipping management</option>
+       <option value="packing management">packing management</option>
+       <option value="checker">checker</option>
+
+    </select>
+
+    <label for="salary">SALARY:</label>
+    <input type="text" id="salary">
+
+    <br><br>
+
+    <button id="set" type="submit">ADD STAFF</button>
+    
+   
+
+    </form> 
+ 
+    <button id="view"onclick="view()">VIEW STAFF</button>
+    
+    <br><br>  
+
+    <table>
+    <thead>
+
+        
+            <th>Name</th>
+            <th>Age</th>
+            <th>Department</th>
+            <th>Salary</th>
+            <th>Edit</th>
+            <th>delete</th> 
+            
+    </thead>
+        <tbody id="table">
+
+    </tbody>
+    </table>
+
+    
+    
+   
+
+
+    </div>
+    
+    
+    <script src="mockjs.js"></script>
+</body>
+</html>

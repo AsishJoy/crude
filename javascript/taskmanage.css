@@ -1,0 +1,42 @@
+.main button{
+    
+    background:rgb(102, 150, 164);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    font-size: large;
+
+
+    
+}
+
+.form{
+    padding-top: 200px;
+}
+
+.table ,th, td{
+   padding: 10px;
+    border: 1px solid grey;
+}
+table{
+     padding-top: 50px;
+}
+.view{
+    padding-right: 235px;
+}
+
+.edit{
+    display: none;
+    
+
+}
+
+.editt{
+    padding-right: 245px;
+}
+
